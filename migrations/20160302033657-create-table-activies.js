@@ -11,19 +11,6 @@ module.exports = {
       task: {
         type: DataTypes.STRING,
         allowNull: false
-      },
-      tags: {
-        type: DataTypes.ARRAY(DataTypes.STRING)
-      },
-      date: {
-        type: DataTypes.DATE,
-        allowNull: false
-      },
-      finished: {
-        type: DataTypes.DATE
-      },
-      data: {
-        type: DataTypes.JSONB
       }
     });
   },
